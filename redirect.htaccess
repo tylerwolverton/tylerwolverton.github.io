@@ -1,5 +1,0 @@
-Options +FollowSymlinks
-RewriteEngine On
-RewriteRule ^$ /projects/ [R]
-RewriteRule ^/index.html$ /projects/
-RewriteRule ^/(.*)$ /projects/$1

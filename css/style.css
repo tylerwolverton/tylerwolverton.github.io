@@ -255,3 +255,9 @@ hr {
   font-size: 15px;
   font-style: italic;
 }
+
+.project-type {
+	margin-top: 5px;
+	margin-left: 20px;
+	font-size: 40px;
+}

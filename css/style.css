@@ -20,12 +20,12 @@ body {
   padding:0;
   text-align:center;
   background-color:#121212;
+  border-style: solid;
+  border-color: #121212;
   
 }
 #navli {
   display: inline;
-  border-style: solid;
-  border-color: white;
 }
 
 .sponsorlist{ 

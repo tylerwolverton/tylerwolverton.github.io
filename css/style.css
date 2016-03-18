@@ -50,6 +50,7 @@ body {
 	visibility: hidden;
 	background-color:#121212;
 	border-style: solid;
+	border-color: white;
 }
 .nav a {
   display: inline-block;

@@ -9,7 +9,8 @@ body {
 .name-header {
 	float: left;
 	margin-left: 20px;
-	font-size: 400px;
+	font-size: 100px;
+	background-color: white;
 }
 
 .nav {

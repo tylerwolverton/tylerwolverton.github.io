@@ -49,6 +49,7 @@ body {
 	width: 142px;
 	visibility: hidden;
 	background-color:#121212;
+	border-style: solid;
 }
 .nav a {
   display: inline-block;

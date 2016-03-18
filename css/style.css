@@ -133,7 +133,6 @@ footer{
   width: 620px;
 }
 .desc-thumb{ /*thumbnail for associated project*/
-  border: 2px solid black;
   float:left;
 }
 .desc-thumb img{
@@ -144,7 +143,6 @@ footer{
 
 .desc p{
   padding-right: 20px;
-  border: 2px solid black;
 }
 
 .desc .date{
@@ -259,7 +257,7 @@ hr {
 }
 
 .project-type {
-	border: 2px solid black;
+	float: left;
 	margin-top: 5px;
 	margin-left: 20px;
 	font-size: 40px;

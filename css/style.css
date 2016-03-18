@@ -6,6 +6,12 @@ body {
   margin: 0; `
 }
 
+.name-header {
+	float: left;
+	margin-left: 20px;
+	font-size: 400px;
+}
+
 .nav {
   list-style:none;
   margin-top: -10px;
@@ -151,6 +157,13 @@ footer{
   font-style: italic;
 }
 
+.project-type {
+	float: left;
+	margin-top: 5px;
+	margin-left: 20px;
+	font-size: 40px;
+}
+
 .project-page {
     
 }
@@ -254,11 +267,4 @@ hr {
   margin-top: -5px;
   font-size: 15px;
   font-style: italic;
-}
-
-.project-type {
-	float: left;
-	margin-top: 5px;
-	margin-left: 20px;
-	font-size: 40px;
 }

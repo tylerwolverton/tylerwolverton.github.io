@@ -131,7 +131,8 @@ footer{
 
 .desc{  /* title and text description*/
   float:left;
-  width: 80%;
+  width: auto;
+  marging-right: 5%;
 }
 
 .desc-thumb{ /*thumbnail for associated project*/

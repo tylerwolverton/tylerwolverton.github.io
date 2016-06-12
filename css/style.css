@@ -158,13 +158,8 @@ footer{
   float:left;
 }
 .desc-thumb img{
-<<<<<<< HEAD
-  width: 100%;
-  margin: 10px;
-=======
   width: 300px;
   margin: 20px;
->>>>>>> parent of f3c06b6... More percent conversions
   border-radius: 10px;
 }
 

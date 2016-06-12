@@ -133,8 +133,8 @@ footer{
   float:left;
 }
 .desc-thumb img{
-  width: 30%;
-  margin: 10%;
+  width: 100%;
+  margin: 10px;
   border-radius: 10px;
 }
 

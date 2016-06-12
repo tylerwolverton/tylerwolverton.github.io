@@ -7,28 +7,28 @@ body {
 }
 
 .header-main {
-	width:80%; 
-	margin: 5% auto; 
+	width:960px; 
+	margin: 15px auto; 
 	color: white; 
-	margin-top: -5%; 
-	margin-bottom: -5%;
+	margin-top: -20px; 
+	margin-bottom: -10px;
 }
 
 .header-name {
 	font-size: 75px; 
 	margin-bottom: 0px; 
-	margin-left: 7.5%;
+	margin-left: 20px;
 }
 
 .header-titles {
 	font-style: italic; 
-	margin-left: 15%; 
-	margin-right: 5%;
+	margin-left: 45px; 
+	margin-right: 25px;
 }
 
 .nav {
   list-style:none;
-  margin-top: -2.5%;
+  margin-top: -10px;
   margin-bottom: 0;
   padding:0;
   text-align:center;
@@ -54,20 +54,20 @@ body {
 
 .nav li ul{
 	padding: 0;
-	margin-left: 33%;
+	margin-left: 337px;
 	margin-top: 0;
 	margin-bottom: 0;
 	margin-right: 0;
 	list-style-type: none;
 	position: absolute;
 	display: block;
-	width: 20%x;
+	width: 142px;
 	visibility: hidden;
 	background-color:#121212;
 }
 .nav a {
   display: inline-block;
-  padding:3%;
+  padding:12px;
   font-size: 20px;
   color: white;
 }
@@ -78,7 +78,7 @@ body {
 }
 
 .sidebar a img {
-	width: 25%; 
+	width: 200px; 
 	border-radius: 10px; 
 	margin-top:10px;
 	margin-left:10%;
@@ -88,7 +88,7 @@ body {
     margin-left: 6%;
 }
 .emailTip{
-    width: 10%;  
+    width: 100px;  
     height: 20px;
     background: #00F;
     padding-top: 37px;  

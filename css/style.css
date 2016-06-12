@@ -7,7 +7,7 @@ body {
 }
 
 .header-main {
-	width:960px; 
+	width:95%; 
 	margin: 15px auto; 
 	color: white; 
 	margin-top: -20px; 
@@ -93,11 +93,7 @@ footer{
   margin: 15px auto;
   background: #ccc;
 }
-.sidebar{
-  float: right;
-  width: 260px;
-  padding-left: 10px;
-}
+
 .posts{
   width: 690px;
   float: left;
@@ -128,16 +124,20 @@ footer{
 .projects{  /*project listing page*/
 
 }
+
 .project-desc{ /*specific project listing*/
     clear:both; /*Needed for multiple projects*/
 }
+
 .desc{  /* title and text description*/
   float:left;
   width: 620px;
 }
+
 .desc-thumb{ /*thumbnail for associated project*/
   float:left;
 }
+
 .desc-thumb img{
   width: 300px;
   margin: 20px;
@@ -145,7 +145,8 @@ footer{
 }
 
 .desc p{
-  padding-right: 20px;
+  margin-right: 20px;
+  margin-left: 20px;
 }
 
 .desc .date{

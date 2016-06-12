@@ -124,7 +124,7 @@ footer{
 }
 
 .project-desc{ /*specific project listing*/
-    clear:both; /*Needed for multiple projects*/
+    clear:none; /*Needed for multiple projects*/
 	float: left;
 }
 

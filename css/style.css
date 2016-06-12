@@ -66,8 +66,6 @@ body {
   
 }
 
-    margin-left: 6%;
-}
 .emailTip{
     width: 100px;  
     height: 20px;
@@ -114,7 +112,6 @@ footer{
 .post h2{ /* title of post */
   margin-bottom: 0;
   margin-top: 0;
-  margin-left: 15px;
 }
 .post h5{ /* date of post */
   margin: 0;
@@ -128,6 +125,7 @@ footer{
 
 .project-desc{ /*specific project listing*/
     clear:both; /*Needed for multiple projects*/
+	float: left;
 }
 
 .desc{  /* title and text description*/

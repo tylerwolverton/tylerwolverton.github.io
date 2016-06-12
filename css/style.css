@@ -41,17 +41,6 @@ body {
   display: inline;
 }
 
-.sponsorlist{ 
-	text-align:center;
-	width: 25%;
-	position: relative;
-	float: right;
-	background-color: #f5f5f5;
-	margin: 5px 15px 15px 5px;
-	padding: 15px 10px;
-	min-height: 150px;
-}
-
 .nav li ul{
 	padding: 0;
 	margin-left: 33%;
@@ -61,7 +50,7 @@ body {
 	list-style-type: none;
 	position: absolute;
 	display: block;
-	width: 20%x;
+	width: 20%;
 	visibility: hidden;
 	background-color:#121212;
 }
@@ -77,16 +66,6 @@ body {
   
 }
 
-.sidebar a img {
-	width: 25%; 
-	border-radius: 10px; 
-	margin-top:10px;
-	margin-left:10%;
-}
-
-.sidebar .email {
-    margin-left: 6%;
-}
 .emailTip{
     width: 10%;  
     height: 20px;
@@ -108,15 +87,11 @@ footer{
   background: #121212;
 }
 #main {
-  width: 960px;
-  margin: 15px auto;
+  width: 95%;
+  margin: 5% auto;
   background: #ccc;
 }
-.sidebar{
-  float: right;
-  width: 260px;
-  padding-left: 10px;
-}
+
 .posts{
   width: 690px;
   float: left;
@@ -158,13 +133,13 @@ footer{
   float:left;
 }
 .desc-thumb img{
-  width: 300px;
-  margin: 20px;
+  width: 30%;
+  margin: 10%;
   border-radius: 10px;
 }
 
 .desc p{
-  padding-right: 20px;
+  padding-right: 5%;
 }
 
 .desc .date{

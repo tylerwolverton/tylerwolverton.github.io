@@ -145,8 +145,8 @@ footer{
 }
 
 .desc p{
-  margin-right: 20px;
-  margin-left: 20px;
+  margin-right: 15px;
+  margin-left: 15px;
 }
 
 .desc .date{
@@ -172,6 +172,7 @@ footer{
 
 .project-title img {
     max-height:100px;
+	margin-left: 15px;
 }
 
 .project-info {

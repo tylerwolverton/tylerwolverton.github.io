@@ -128,13 +128,13 @@ footer{
 
 .project-desc{ /*specific project listing*/
     clear:none; /*Needed for multiple projects*/
-	float: left;
+	/*float: left;*/
 }
 
 .desc{  /* title and text description*/
   font-size: 15px;
   float:left;
-  width: auto;
+  width: 80%;
   marging-right: 5%;
   marging-left: 5%;
 }

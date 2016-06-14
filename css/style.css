@@ -134,7 +134,7 @@ footer{
 .desc{  /* title and text description*/
   font-size: 15px;
   float:left;
-  width: calc (90% - 300px);
+  width: calc (100% - 700px);
   margin-right: 5%;
   margin-left: 5%;
 }

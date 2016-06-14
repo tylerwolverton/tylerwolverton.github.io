@@ -144,9 +144,8 @@ footer{
 }
 
 .desc{  /* title and text description*/
-  font-size: 15px;
   float:left;
-  width: calc (100% - 700px);
+  width: auto;
   margin-right: 5%;
   margin-left: 5%;
 }
@@ -187,7 +186,7 @@ footer{
 
 .project-title {
   float:left;
-  width: calc (90% - 300px);
+  /*width: calc (90% - 300px);*/
 }
 
 .project-title img {

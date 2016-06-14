@@ -113,12 +113,15 @@ footer{
   margin-bottom: 0;
   margin-top: 0;
 }
+
 .post h5{ /* date of post */
   margin: 0;
 }
+
 .post p{ /* text of post */
   margin-bottom: 0;
 }
+
 .projects{  /*project listing page*/
 
 }
@@ -129,6 +132,7 @@ footer{
 }
 
 .desc{  /* title and text description*/
+  font-size: 20px;
   float:left;
   width: auto;
   marging-right: 5%;

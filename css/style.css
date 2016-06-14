@@ -135,6 +135,10 @@ footer{
 .project-desc{ /*specific project listing*/
     clear:none; /*Needed for multiple projects*/
 	float: left;
+	
+	border-top-style: solid;
+	border-color: black;
+	border-width: 1px;
 }
 
 .desc{  /* title and text description*/

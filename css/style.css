@@ -63,7 +63,8 @@ body {
 .email{
   unicode-bidi:bidi-override;
   direction: rtl;
-  
+  margin-left: 45px; 
+  margin-right: 25px;
 }
 
 .emailTip{

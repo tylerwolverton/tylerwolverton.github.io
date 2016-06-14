@@ -134,9 +134,9 @@ footer{
 .desc{  /* title and text description*/
   font-size: 15px;
   float:left;
-  width: 80%;
-  marging-right: 5%;
-  marging-left: 5%;
+  width: 70%;
+  margin-right: 5%;
+  margin-left: 5%;
 }
 
 .desc-thumb{ /*thumbnail for associated project*/
@@ -144,7 +144,7 @@ footer{
 }
 
 .desc-thumb img{
-  width: 300px;
+  width: 20%;
   margin: 20px;
   border-radius: 10px;
   float:left;

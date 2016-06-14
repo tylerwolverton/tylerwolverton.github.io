@@ -144,6 +144,7 @@ footer{
 }
 
 .desc{  /* title and text description*/
+  font-size: 15px;
   float:left;
   width: auto;
   margin-right: 5%;
@@ -278,16 +279,6 @@ hr {
   margin-top:18px;
   margin-bottom:18px;
   background-color:#7f7f7f;
-  border-radius: 3px;
-}
-
-hrBlack {
-  border:0px;
-  height:4px;
-  width:96%;
-  margin-top:18px;
-  margin-bottom:18px;
-  background-color:#000000;
   border-radius: 3px;
 }
 

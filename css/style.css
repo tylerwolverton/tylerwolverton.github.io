@@ -137,6 +137,14 @@ footer{
 	float: left;
 }
 
+.section-desc{  /* title and text description*/
+  font-size: 15px;
+  float:left;
+  width: auto;
+  margin-right: 5%;
+  margin-left: 5%;
+}
+
 .desc{  /* title and text description*/
   font-size: 15px;
   float:left;

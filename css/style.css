@@ -136,11 +136,11 @@ footer{
     clear:none; /*Needed for multiple projects*/
 	float: left;
 	
-	border-top-style: solid;
+	/*border-top-style: solid;
 	border-color: black;
 	border-width: 1px;
 	margin-right: 5px;
-	margin-left: 5px;
+	margin-left: 5px;*/
 }
 
 .dividing-line{
@@ -157,6 +157,12 @@ footer{
   width: auto;
   margin-right: 5%;
   margin-left: 5%;
+  
+  border-top-style: solid;
+	border-color: black;
+	border-width: 1px;
+	margin-right: 5px;
+	margin-left: 5px;
 }
 
 .desc-thumb{ /*thumbnail for associated project*/

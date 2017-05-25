@@ -130,11 +130,6 @@ footer{
 
 .projects{  /*project listing page*/
 
-    border-top-style: solid;
-	border-color: black;
-	border-width: 3px;
-	margin-right: 2px;
-	margin-left: 2px;
 }
 
 .project-desc{ /*specific project listing*/
@@ -146,6 +141,14 @@ footer{
 	border-width: 1px;
 	margin-right: 5px;
 	margin-left: 5px;
+}
+
+.dividing-line{
+	border-top-style: solid;
+	border-color: black;
+	border-width: 2px;
+	margin-right: 2px;
+	margin-left: 2px;
 }
 
 .desc{  /* title and text description*/

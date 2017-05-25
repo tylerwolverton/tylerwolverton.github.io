@@ -135,20 +135,6 @@ footer{
 .project-desc{ /*specific project listing*/
     clear:none; /*Needed for multiple projects*/
 	float: left;
-	/*
-	border-top-style: solid;
-	border-color: black;
-	border-width: 1px;
-	margin-right: 5px;
-	margin-left: 5px;*/
-}
-
-.dividing-line{
-	border-top-style: solid;
-	border-color: black;
-	border-width: 2px;
-	margin-right: 2px;
-	margin-left: 2px;
 }
 
 .desc{  /* title and text description*/
@@ -159,10 +145,10 @@ footer{
   margin-left: 5%;
   
   border-bottom-style: solid;
-	border-color: black;
-	border-width: 1px;
-	margin-right: 5px;
-	margin-left: 5px;
+  border-color: black;
+  border-width: 1px;
+  margin-right: 5px;
+  margin-left: 5px;
 }
 
 .desc-thumb{ /*thumbnail for associated project*/

@@ -1,73 +1,168 @@
----
-layout: default
----
+<!DOCTYPE html>
+<html lang="en">
 
-<h1 class="project-type">Personal Projects</h1>
-<div class="projects">
-  <div class="project-desc">
-    <div class="desc-thumb">
-		<a href="/flashlight2d/flashlight2d.html"><img src="/img/projects/engine/thumbnail1.png"/></a> 
-    </div>
-    <div class="desc">
-        <a href="/flashlight2d/flashlight2d.html"><h2>Flashlight Tag 2D</h2></a>
-        <p class="date">Fall 2016 - Present</p>
-        <p>
-            In order to gain a better understanding of game development, I've been working on an engine in SDL2 using an entity component model
-			with the eventual goal of creating a game of flashlight tag complete with lighting shaders.
-        </p>
-        <p><a href ="/flashlight2d/flashlight2d.html">Click here for more information about <i>Flashlight Tag 2D...</i></a></p>
-    </div>
-  </div>
-</div>
+  <head>
 
-<h1 class="project-type">SIGGD Projects</h1>
-<div class="section-desc">
-	<p>
-		As a student at Purdue University I was the lead game programmer and later president of the student club, 
-		ACM (Association for Computing Machinery) SIGGD (Special Interest Group in Game Development). SIGGD averaged
-		about 15 members during each of the three years I participated in the club and we developed one game each year.
-	</p>
-</div>
-<div class="projects">
-  <div class="project-desc">
-    <div class="desc-thumb">
-      <a href="/space/space.html"><img src="/img/projects/space/20k_thumb.png"/></a>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="Tyler Wolverton">
+
+    <title>Tyler Wolverton</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <link href="css/1-col-portfolio.css" rel="stylesheet">
+
+    <link href="css/style.css" rel="stylesheet">
+
+  </head>
+
+  <body class="bg-dark2 text-light">
+
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+      <div class="container">
+        <a class="navbar-brand" href="#">Tyler Wolverton</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarResponsive">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item active">
+              <a class="nav-link" href="#">Projects
+                <span class="sr-only">(current)</span>
+              </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="about/about.html">About</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Page Content -->
+    <div class="container">
+
+      <!-- Page Heading -->
+      <h1 class="my-4">Personal Projects</h1>
+
+      <!-- Project Purple -->
+      <div class="row color:">
+        <div class="col-md-7">
+          <a href="projectpurple/projectpurple.html">
+            <img class="img-fluid rounded mb-3 mb-md-0" src="img/projects/engine/title_screen.png" alt="">
+          </a>
+        </div>
+        <div class="col-md-5">
+          <h3>Project Purple</h3>
+          <p> A multiplayer 2D action RPG created using a custom engine built with SDL2 and OpenGL.</p>
+          <a class="btn btn-primary" href="projectpurple/projectpurple.html">View Project</a>
+        </div>
+      </div>
+      <!-- /.row -->
+
+      <hr>
+
+      <!-- Page Heading -->
+      <h1 class="my-4">Purdue SIGGD Projects</h1>
+      <p>As a student at Purdue University I was the lead game programmer (3 yrs) and president (1 1/2 yrs) of the student club, ACM (Association for Computing Machinery) SIGGD (Special Interest Group in Game Development). I worked on the following projects with the other members of the club.</p> 
+
+      <!-- Within The Darkness -->
+      <div class="row">
+        <div class="col-md-7">
+          <a href="wtd/wtd.html">
+            <img class="img-fluid rounded mb-3 mb-md-0" src="img/projects/wtd/assasinate.jpg" alt="">
+          </a>
+        </div>
+        <div class="col-md-5">
+          <h3>Within The Darkness</h3>
+          <p>Challenge the depths of a blob filled dungeon and try to make it out alive in this action RPG.</p>
+          <a class="btn btn-primary" href="wtd/wtd.html">View Project</a>
+        </div>
+      </div>
+      <!-- /.row -->
+
+      <hr>
+
+      <!-- Animal Armies -->
+      <div class="row">
+        <div class="col-md-7">
+          <a href="animal/animal.html">
+            <img class="img-fluid rounded mb-3 mb-md-0" src="img/projects/animal/red_start.png" alt="">
+          </a>
+        </div>
+        <div class="col-md-5">
+          <h3>Animal Armies</h3>
+          <p>Command your platoon of animals to outsmart your foes in this turn-based strategy game.</p>
+          <a class="btn btn-primary" href="animal/animal.html">View Project</a>
+        </div>
+      </div>
+      <!-- /.row -->
+
+      <hr>
+
+      <!-- 20,000 Leagues Over the Sea -->
+      <div class="row">
+
+        <div class="col-md-7">
+          <a href="space/space.html">
+            <img class="img-fluid rounded mb-3 mb-md-0" src="img/projects/space/20k_title.png" alt="">
+          </a>
+        </div>
+        <div class="col-md-5">
+          <h3>20,000 Leagues Over The Sea</h3>
+          <p>Drawing from a wonderful mix between the earlier classics of Missile Defense and Asteroids, 20,000 Leagues Over the Sea revolves around using orbital mechanics to defend a planet from invading aliens.</p>
+          <a class="btn btn-primary" href="space/space.html">View Project</a>
+        </div>
+      </div>
+      <!-- /.row -->
+
+      <hr>
+
+      <!-- Pagination (only 1 page for now) -->
+      <!-- <ul class="pagination justify-content-center">
+        <li class="page-item">
+          <a class="page-link" href="#" aria-label="Previous">
+            <span aria-hidden="true">&laquo;</span>
+            <span class="sr-only">Previous</span>
+          </a>
+        </li>
+        <li class="page-item">
+          <a class="page-link" href="#">1</a>
+        </li>
+        <li class="page-item">
+          <a class="page-link" href="#">2</a>
+        </li>
+        <li class="page-item">
+          <a class="page-link" href="#">3</a>
+        </li>
+        <li class="page-item">
+          <a class="page-link" href="#" aria-label="Next">
+            <span aria-hidden="true">&raquo;</span>
+            <span class="sr-only">Next</span>
+          </a>
+        </li>
+      </ul> -->
+
     </div>
-    <div class="desc">
-        <a href="/space/space.html"><h2>20,000 Leagues Over the Sea</h2></a>
-        <p class="date">Fall 2013 - Fall 2014</p>
-        <p>
-            Drawing from a wonderful mix between the earlier classics of Missile Defense and Asteroids,
-            20,000 Leagues Over the Sea revolves around using orbital mechanics to defend a planet from invading aliens.
-        </p>
-        <p><a href ="/space/space.html">Click here for more information about <i>20,000 Leagues Over the Sea...</i></a></p>
-    </div>
-  </div>
-  <div class="project-desc">
-    <div class="desc-thumb">
-      <a href="/animal/animal.html"><img src="/img/projects/animal/animal_thumb.png"/></a>
-    </div>
-    <div class="desc">
-        <a href="/animal/animal.html"><h2>Animal Armies</h2></a>
-        <p class="date">Spring 2013</p>
-        <p>
-			Animal Armies is a turn-based strategy game involving randomly generated packs of animals fighting for survival on a battlefield of randomly generated terrain.
-        </p>
-         <p><a href ="/animal/animal.html">Click here for more information about <i>Animal Armies...</i></a></p>
-    </div>
-  </div>
-  <div class="project-desc">
-    <div class="desc-thumb">
-      <a href="/wtd/wtd.html"><img src="/img/projects/wtd/wtd-thumb.png"/></a>
-    </div>
-    <div class="desc">
-        <a href="/wtd/wtd.html"><h2>Within the Darkness</h2></a>
-        <p class="date">Fall 2011 - Spring 2012</p>
-        <p>
-			Survive a dungeon full of dangerous enemies in this action rpg. 
-			Armed with a sword, bow, and magic abilities our heroine must traverse the twisting passages and defeat the beast at the heart of the dungeon.
-		</p>
-        <p><a href ="/wtd/wtd.html">Click here for more information about <i>Within the Darkness...</i></a></p>
-    </div>
-  </div>
-</div>
+    <!-- /.container -->
+
+    <!-- Footer -->
+    <footer class="py-5 bg-dark">
+      <div class="container">
+        <p class="m-0 text-center text-white">Copyright &copy; Tyler Wolverton 2018. <span class="email">moc.liamg@trevlowrelyt</span></p>
+      </div>
+      <!-- /.container -->
+    </footer>
+
+    <!-- Bootstrap core JavaScript -->
+    <script src="vendor/jquery/jquery.min.js"></script>
+    <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+  </body>
+
+</html>

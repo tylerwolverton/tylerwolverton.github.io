@@ -83,20 +83,24 @@
               <img class="screenshotColumn" src="./img/screenshot10.PNG" alt="">
           </div>
 
+          <p></p>
           <!-- Software Dev Screenshots Row -->
+          <h3 class="my-4">Movement System</h3>
           <div class="row">
               <div class="col-md-6">
-                  <img class="img-fluid" src="./img/screenshot1.PNG" alt="">
+                  <img class="img-fluid" src="./img/screenshot10.PNG" alt="">
               </div>
 
               <div class="col-md-6">
                   <p></p>
                   <p>
-                      Movement System
+                      Building the movement system was one of the most challenging parts of this project. We initially wanted to have a swipe to move system so the player would need to quickly swipe while playing to keep up the excitemnt. After much playtesting we discovered that swiping was very tedious so I changed the movement to a more straightforward tap and hold design. This turned out to be pretty simple to implement and was a great example of how playtesting is vital to find out how others want to play your game and how best to accommodate those playstyles.
                   </p>
               </div>
           </div>
 
+          <p></p>
+          <h3 class="my-4">Sprite Outline Shader</h3>
           <div class="row">
               <div class="col-md-6">
                   <img class="img-fluid" src="./img/screenshot1.PNG" alt="">
@@ -105,46 +109,37 @@
               <div class="col-md-6">
                   <p></p>
                   <p>
-                      Shader
+                      In order to better convey to the player which enemies could and couldn't be eaten, I added a shader to outline edible enemies in green and dangerous enemies in red. By checking for pixels that were entirely transparent up to 7 pixels away, I tinted the outer 7 pixels of each enemy sprite the appropriate color. We actually ran into some performance issues when multiple trebuchets were on screen since those sprites were so complex, so I optimized the shader by exiting early if no transparent pixels could be found within a distance of 8, speeding up our rendering considerably and improving the frame rate when trebuchets were on screen.
                   </p>
               </div>
           </div>
 
+          <p></p>
+          <h3 class="my-4">Enemy Management and Trebuchet Behaviour</h3>
           <div class="row">
               <div class="col-md-6">
-                  <img class="img-fluid" src="./img/screenshot1.PNG" alt="">
+                  <img class="img-fluid" src="./img/screenshot4.PNG" alt="">
               </div>
 
               <div class="col-md-6">
                   <p></p>
                   <p>
-                      Trebuchet
+                      I built the infrastructure for our enemies to communicate with the player whenever a collision occurred. After colliding, the player will check what kind of enemy was touched and compare their size classes to see whether the enemy should be eaten or the player should take damage. The player's code will then tell the enemy to die if eaten allowing the enemies to handle that however they want. For instance, when a trebuchet is destroyed it will spawn a group of 30 dwarves who quickly flee from the player. I also wrote the logic for trebuchet attacking. The trebuchets check a vision range in front of them and raytrace to the player to see if the trebuchet has a clear line of sight before firing.
                   </p>
               </div>
           </div>
 
+          <p></p>
+          <h3 class="my-4">High Scores and Menu</h3>
           <div class="row">
               <div class="col-md-6">
-                  <img class="img-fluid" src="./img/screenshot1.PNG" alt="">
+                  <img class="img-fluid" src="./img/LevelSelect.PNG" alt="">
               </div>
 
               <div class="col-md-6">
                   <p></p>
                   <p>
-                      High Scores and Menu
-                  </p>
-              </div>
-          </div>
-
-          <div class="row">
-              <div class="col-md-6">
-                  <img class="img-fluid" src="./img/screenshot1.PNG" alt="">
-              </div>
-
-              <div class="col-md-6">
-                  <p></p>
-                  <p>
-                      Loading Screen
+                     After each level is completed, the player's high score and number of dwarves earned is persisted in player prefs. This data is displayed in the level select menu beneath the label for each level. Levels are locked until a bronze dwarf is achieved and a special perfect state can be earned by eating all dwarves in a level. I also added the ability to clear your progress from the level select menu.
                   </p>
               </div>
           </div>

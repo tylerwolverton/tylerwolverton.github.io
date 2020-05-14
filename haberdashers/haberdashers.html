@@ -1,0 +1,165 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="Tyler Wolverton">
+
+    <title>HaberDashers</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="../vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <link href="../css/portfolio-item.css" rel="stylesheet">
+
+    <link href="../css/style.css" rel="stylesheet">
+
+  </head>
+
+  <body class="bg-dark2 text-light">
+
+      <!-- Navigation -->
+      <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+          <div class="container">
+              <a class="navbar-brand name-title" href="../index.html">Tyler Wolverton</a>
+              <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+                  <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarResponsive">
+                  <ul class="navbar-nav ml-auto">
+                      <li class="nav-item">
+                          <a class="nav-link" href="../index.html">Projects</a>
+                      </li>
+                      <li class="nav-item">
+                          <a class="nav-link" href="../about/about.html">About</a>
+                      </li>
+                  </ul>
+              </div>
+          </div>
+      </nav>
+
+      <!-- Page Content -->
+      <div class="container pt-5 pb-3">
+
+          <!-- Portfolio Item Heading -->
+          <h1 class="my-4">HaberDashers</h1>
+          <p>February - May 2020</p>
+
+          <!-- Logo, Trailer, Game Synopsis Row -->
+          <div class="row">
+
+              <!-- <div class="col-md-12 videoWrapper">
+                  <iframe width="1280" height="540" src="https://www.youtube.com/embed/jLxAIcSrLyE" poster="./img/posterImage.png" onload="this.width=screen.width" ; frameborder="0" allow="accelerometer; autoplay; encrypted-media; picture-in-picture" allowfullscreen></iframe>
+              </div> -->
+              <video width="100%" poster="./img/Title_Screen_Art_UI_forfinal.png" controls>
+                <source src="img/GameTrailer.mp4" type="video/mp4">
+              </video> 
+          </div>
+          <hr>
+          <a class="btn btn-primary" href="https://store.steampowered.com/app/1062100/HaberDashers/">Download for free on Steam!</a>
+
+          <div class="row">
+
+              <!-- <div class="col-md-6">
+                  <p></p>
+                  <img class="img-fluid" src="./img/Title_Screen_Art_UI_forfinal.png" alt="">
+              </div> -->
+
+              <div class="col-md-12">
+                  <p></p>
+                  <p>
+                    HaberDashers is a console-style arcade (kart) racer for the PC in which players control miniature humanoid inhabitants of an everyday home, racing past outsized household items and through rooms as they compete against human and AI opponents with both driving skills and item pick-ups. 
+                  </p>
+                  <p>
+                      This project was created by our entire cohort, 56 students, using Unreal Engine 4. I worked on the BPACT team ( Builds, Performance, Architecture, Camera and Tools ...basically any programming task that isn't physics, AI, gameplay logic or audio) and spent most of my time working on the architecture and data flow of the game. It was my responsibility to work with most of the other teams to make sure every component of our game could communicate with the others and our design was clean enough to support adding new features quickly.
+                  </p>
+              </div>
+          </div>
+
+          <!-- Poster and Screenshots Row -->
+          <div class="row">
+              <img class="screenshotColumn" src="./img/screenshot1.jpg" alt="">
+              <img class="screenshotColumn" src="./img/screenshot6.jpg" alt="">
+              <img class="screenshotColumn" src="./img/screenshot2.jpg" alt="">
+              <img class="screenshotColumn" src="./img/screenshot3.jpg" alt="">
+          </div>
+
+          <p></p>
+          <!-- Software Dev Screenshots Row -->
+          <h3 class="my-4">Data Management and Architecture</h3>
+          <div class="row">
+              <div class="col-md-6">
+                  <img class="img-fluid" src="./img/kartMenu.png" alt="">
+              </div>
+
+              <div class="col-md-6">
+                  <p></p>
+                  <p>
+                      My main role on the project was to develop a system to transfer information between different game components efficiently. I spent a lot of time developing our GameInstance and GameMode blueprints to manage each racer's state throughout the game. Having a centralized place to store and retrieve kart information became invaluable as our project grew and multiple teams needed to access information about the game state and karts. I got a lot of great experience working with the other teams and seeing the project from their perspective while adding features to support their work. I learned how critical it is to talk with the consumers of a tool to ensure the functionality delivers what is needed. 
+                  </p>
+                  <p>
+                    To support custom kart selection and maintaining points during Grand Prix mode, all of the kart data is persisted in GameInstance and then before each race a kart spawn component creates each kart from that data. While waiting on the menu system to be implemented, I added a little tool to specify the number of player and AI karts spawned in each level to help speed up testing times. I learned how important the interface of a tool can be after my first implementation led to a lot of questions from the other developers about how to use it. A rework after talking with some of the level designers made the tool more intuitive and saved me the time of answering questions about it as often. My goal of a simple component that anyone could use to spawn in the karts was accomplished and our testing times were imrpoved.
+                  </p>
+              </div>
+          </div>
+
+          <p></p>
+          <h3 class="my-4">Environmental Hazard System</h3>
+          <div class="row">
+              <div class="col-md-6">
+                  <img class="img-fluid" src="./img/screenshot4.jpg" alt="">
+              </div>
+
+              <div class="col-md-6">
+                  <p></p>
+                  <p>
+                      Our game has a collection of hazards that appear on each track, each with slightly different behavior, but all sharing some common qualities. I worked with one of the level designers to create some template environmental hazards that could be used to create all the various hazards in the game. By adding certain shared functionality, like AI avoidance and kart damage, directly into the base class, each level designer had less to worry about when creating a new hazard and there was no chance that a critical piece of base functionality would be forgotten in a new hazard.
+                  </p>
+              </div>
+          </div>
+
+          <p></p>
+          <h3 class="my-4">Build System</h3>
+          <div class="row">
+              <div class="col-md-6">
+                  <img class="img-fluid" src="./img/versionNumber.png" alt="">
+              </div>
+
+              <div class="col-md-6">
+                  <p></p>
+                  <p>
+                      I worked with the lead programmer to update and improve the build system that had been used for past Guildhall games. The build system was comprised of a collection of batch scripts that would update the repo from perforce, build the game, and upload the build to a shared server for the team to download. We decided to port the existing functionality to python scripts since we have more experience as a cohort in python than bash. One completely new addition that I made to the build system was to define an environment config file that each script references when running their operations. This allowed us to run the scripts on any machine easily and avoid hardcoding the script path references to the build machine's environment. Having the power to build the game outside of Unreal on my local machine greatly sped up development, especially when we were tracking down bugs that only appeared in the packaged version of the game.
+                  </p>
+              </div>
+          </div>
+
+          <!-- /.container -->
+      </div>
+
+      <!-- Footer -->
+      <footer class="py-2 bg-dark">
+          <div class="container">
+              <p class="m-0 text-center text-white">
+                  Copyright &copy; Tyler Wolverton 2020.
+              </p>
+              <p class="m-0 text-center text-white">
+                  <span class="email">moc.liamg@trevlowrelyt</span>
+                  <a href="https://www.linkedin.com/pub/tyler-wolverton/4a/10/5a" style="text-decoration:none;"><span style="font: 80% Arial,sans-serif; color:#0783B6;"><img src="https://static.licdn.com/scds/common/u/img/webpromo/btn_in_20x15.png" width="30" height="20" alt="View Tyler Wolverton's LinkedIn profile" style="vertical-align:middle;" border="0"></span></a>
+
+                  <a href="https://github.com/tylerwolverton" style="text-decoration:none;"><span><img src="../img/GitHub-Mark-Light-32px.png" width="20" height="20" alt="View Tyler Wolverton's GitHub profile" style="vertical-align:middle;" border="0"></span></a>
+              </p>
+          </div>
+          <!-- /.container -->
+      </footer>
+
+      <!-- Bootstrap core JavaScript -->
+      <script src="../vendor/jquery/jquery.min.js"></script>
+      <script src="../vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+  </body>
+
+</html>
